@@ -8,10 +8,6 @@ let pagoInicial = 0;
 // Creo variable tarjeta
 let tarjeta = "";
 
-function caca(){
-    pagoInicial = 8;
-}
-
 // Pregunto si el nombre ingresado no es vacio
 if (nombreIngreso != "" && nombreIngreso != null) {
 
