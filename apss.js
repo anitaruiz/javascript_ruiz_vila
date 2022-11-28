@@ -29,7 +29,6 @@ if (nombreIngreso != "" && nombreIngreso != null) {
    // El monto ingresado es menor a 150, mostramos error
    else{ 
         alert ('El monto es menor a 150');
-        caca();
    }
 }
  // El nombre ingresado es vacio, mostramos error
