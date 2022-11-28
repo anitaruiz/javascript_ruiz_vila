@@ -40,22 +40,24 @@ else{
 //Tabla de multiplicar, ciclo for
 
 function miBotonMultiplicacion() {
-    //creo la variable tabla vacia
+    //Creo la variable tabla vacia
     let tabla ='';
-    //creo la variable multipilcarNumero con un parseInt que transforma a numero
+    //Creo la variable multipilcarNumero con un parseInt que transforma a numero
     let multiplicarNumero = parseInt( prompt("Por favor ingrese numero"));
-    //creo el ciclo for con sus variables, condicion y operador de incremento
+    //Creo el ciclo for con sus variables, condicion y operador de incremento
     for (let numero = 1; numero <= 10; numero ++){
-        // creo variable de resultado con la operacion logica
+        // Creo variable de resultado con la operacion logica
         let resultadoMultiplicar = multiplicarNumero * numero;
-        // la variable tabla le asigno un valor, donde este suma todas los ciclos anteriories para mostrar todas las lineas en 1 solo alert con un br
+        // La variable tabla le asigno un valor, donde este suma todas los ciclos anteriories para mostrar todas las lineas en 1 solo alert con un br
         tabla = tabla + `${multiplicarNumero} x ${numero} = ${resultadoMultiplicar} \n`;
     }
-    //creo un alert con la variable tabla que muestra todas las lineas del ciclo
+    //Creo un alert con la variable tabla que muestra todas las lineas del ciclo
     alert (tabla);
 }
 
 //Calculadora con funcion
+
+//Primero creo las variables. Luego creo la funcion de operacion. luego devolviendo y luego arrojando resultado.
 
 //Suma
 
