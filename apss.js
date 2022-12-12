@@ -100,3 +100,33 @@ function miBotonDividir(){
         let resultado = dividir (primerNumero, segundoNumero);
         alert (resultado)
 }
+
+//calculadoras comprar
+
+//objetos
+
+function Calculadora (nombre, precio){
+    this.nombre = nombre;
+    this.precio = precio;
+}
+
+//arrays
+
+const carrito = [];
+
+
+//funciones del boton a llamar
+
+function sumarRosa (){
+    carrito.push(new Calculadora("Calculadora Rosa",1500));
+}
+
+function sumarNegro(){
+    carrito.push(new calculadora("Calculadora Negra", 1500));
+}
+
+function sumarBasica(){
+    carrito.push(new calculadora("Calculadora Basica", 1000));
+}
+
+//
